@@ -4,6 +4,7 @@ import "./Sidebar.css";
 import { auth } from "./Firebase";
 import { selectUser } from "./features/userSlice";
 import { useSelector } from "react-redux";
+import logo from "./Logo.jpg";
 
 function Sidebar() {
   const user = useSelector(selectUser);
@@ -18,10 +19,7 @@ function Sidebar() {
   return (
     <div className="sidebar">
       <div className="sidebar__top">
-        <img
-          src="https://www.costacruises.com/content/dam/costa/inventory-assets/countries/IND/IND.jpg.image.750.563.low.jpg"
-          alt=""
-        />
+        <img src={logo} alt="" />
         <Avatar className="sidebar__avatar" src={user.photoUrl} />
         <h2>{user.displayName}</h2>
         <h4>{user.email}</h4>
