@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 import "./Header.css";
 import SearchIcon from "@material-ui/icons/Search";
 import HeaderOption from "./HeaderOption";
