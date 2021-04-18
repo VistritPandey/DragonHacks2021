@@ -1,0 +1,65 @@
+.feed{
+    padding-left: 40px;
+    flex: 0.8;
+    margin: 0 20px;
+    border-radius: 10px;
+}
+
+.feed__inputContainer {
+    background-color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.feed__input {
+    border: 1px solid lightgray;
+    border-radius: 30px;
+    display: flex;
+    padding: 10px;
+    color: gray;
+    padding-left: 15px;
+}
+
+.feed__input > form {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.feed__input > form > input {
+    border: none;
+    flex: 1;
+    margin-left: 10px;
+    outline-width: 0;
+    font-weight: 600;
+    background-color: black;
+}
+
+.light {
+    border: none;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.ligh {
+    background-color: lightblue;
+}
+
+.feed__inputOptions {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.lightblue {
+    color: rgba(255, 255, 0, 0.748);
+}
+
+.imageInput {
+    border: none;
+    padding: 10px;
+  }
+
+input, select, textarea{
+    color: white;
+}
